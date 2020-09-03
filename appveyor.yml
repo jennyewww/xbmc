@@ -92,7 +92,7 @@ build_script:
             }
           }
         }
-        # Print succesful and failed addons
+        # Print successful and failed addons
         Write-Host "--------------------------------------------------"
         if ($addons_success -ne "") {
           $addons_success.Split(" ") | %{
